@@ -4,10 +4,6 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 from webdriver_manager.chrome import ChromeDriverManager
 
-messageReadError = "read error, try again"
-
-webinarsNames = list()
-
 
 class ElementNotFound(Exception):
     def __init__(self, xpath):
